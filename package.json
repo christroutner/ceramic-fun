@@ -1,0 +1,30 @@
+{
+  "name": "ceramic-fun",
+  "version": "1.0.0",
+  "description": "A sandbox of scripts, playing around with the Ceramic API.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christroutner/ceramic-fun.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christroutner/ceramic-fun/issues"
+  },
+  "homepage": "https://github.com/christroutner/ceramic-fun#readme",
+  "dependencies": {
+    "@ceramicnetwork/3id-did-resolver": "^1.4.12",
+    "@ceramicnetwork/http-client": "^1.5.3",
+    "@ceramicnetwork/stream-tile": "^1.5.3",
+    "@stablelib/random": "^1.0.1",
+    "3id-did-provider": "^1.1.1",
+    "dids": "^2.4.3",
+    "key-did-provider-ed25519": "^1.1.0",
+    "key-did-resolver": "^1.4.0"
+  }
+}
